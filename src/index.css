@@ -94,18 +94,21 @@ h2 {
 
   .container {
     flex-direction: column;
+    overflow: hidden;
   }
 
   .doraemon {
     order: 1;
     font-size: 20px;
-    height: 60%;
+    height: 50%;
     padding-left: 4em;
   }
 
   .text {
     order: 2;
     padding: 2em 2em;
-    height: 40%;
+    height: 50%;
+    width: auto;
+    line-height: 1.2;
   }
 }
