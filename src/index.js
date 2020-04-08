@@ -16,7 +16,7 @@ const updateProgress = (progress) => {
 
 const len = cssString.length;
 const play = () => {
-  if (timer) stop();
+  if (timer) return;
 
   timer = setInterval(() => {
     textStartIndex += 1;
