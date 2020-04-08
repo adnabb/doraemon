@@ -44,9 +44,7 @@ export const cssString = `
 
 .mousetache { position: relative; top: 1em; right: -.2em; width: 6em; height: 2em; padding: 0 .5em; display: flex; justify-content: space-between; }
 
-.mousetache .left span:nth-child(1), .mousetache .right span:nth-child(3) { transform: rotate(21deg); }
-
-.mousetache .left span:nth-child(3), .mousetache .right span:nth-child(1) { transform: rotate(-21deg); }
+.mousetache .left span:nth-child(1), .mousetache .right span:nth-child(3) { transform: rotate(21deg); } .mousetache .left span:nth-child(3), .mousetache .right span:nth-child(1) { transform: rotate(-21deg); }
 
 .mousetache span { display: block; width: 1.3em; background: var(--border-color); border: .02em solid var(--border-color); margin: 0.4em 0px; }
 

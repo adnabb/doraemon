@@ -95,6 +95,7 @@ h2 {
   .container {
     flex-direction: column;
     overflow: hidden;
+    height: 100%;
   }
 
   .doraemon {
